@@ -12,14 +12,10 @@ This is a simple pomodoro timer that I created to showcase Kotlin fundamentals.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [Kotlin Documantation](https://kotlinlang.org/docs/getting-started.html)
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
 
 - Optimize updateSeconds method
 - Load tasks on startup, overwrite tasks file every time a task is edited, created, or removed 
