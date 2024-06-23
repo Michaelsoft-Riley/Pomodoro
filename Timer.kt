@@ -12,7 +12,7 @@ abstract class Timer(protected var duration: Int) {
     }
 
     fun displayStartMessage() {
-        println("$name: $duration min\nPress [Enter] to start, or enter 0 to quit")
+        println("$name: $duration min\nPress [Enter] to start")
         readln()
     }
 

@@ -26,7 +26,7 @@ fun main() {
         println("2. Display tasks") // TODO: this should eventually be put inside the "select task" option
         println("3. Custom intervals")
         println("4. Reset intervals")
-        println("Or press [enter] to continue")
+        println("Or press [enter] to continue to timer")
         choice = readLine().toString()
 
         when (choice) {

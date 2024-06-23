@@ -12,7 +12,7 @@ class FocusTimer(
         displayEndMessage()
     }
 
-    override fun updateSeconds(seconds : Int) {
+    public override fun updateSeconds(seconds : Int) {
         // Increments focusTime by 1min for every updateSeconds loop (60seconds)
         super.updateSeconds(seconds)
         focusTime++
