@@ -1,6 +1,7 @@
 class TaskManager {
     val tasks = mutableListOf<Task>()
 
+    // Creates a new task, and adds it to tasks
     fun createTask() {
         print("Task name: ")
         val name: String = readln()

@@ -11,6 +11,7 @@ abstract class Timer(protected var duration: Int) {
         displayEndMessage()
     }
 
+    // displays start message and waits for the user to press enter
     fun displayStartMessage() {
         println("$name: $duration min\nPress [Enter] to start")
         readln()
@@ -20,6 +21,7 @@ abstract class Timer(protected var duration: Int) {
         println("\r$name: Done!")
     }
 
+    // Iterates from duration downTo 0 by one after every 60 seconds
     protected fun countdown() {
         for (minutes in (duration - 1) downTo 0) {
             updateMinutes(minutes)
