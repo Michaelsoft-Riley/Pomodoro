@@ -4,10 +4,8 @@ fun main() {
     // TODO: Option to stop the current focus timer. This should call RecordFocusTime()
     // TODO: Option to pause the current timer. This may require some big changes to the timer.
     // TODO: option to start or skip break
-    // TODO: option to create new intervals
-    // TODO: Option to create tasks
     // TODO: Option to select a task. Focus time will be saved to file with the task name listed.
-    // TODO: Calculate focus time for each task for each day over the past week and month
+    // TODO: Calculate focus time for each task for each day over the past week and month from file.
     val taskManager = TaskManager()
 
     val timers = mutableListOf<Timer>()
